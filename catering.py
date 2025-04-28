@@ -8,7 +8,7 @@ def solve_event_catering():
     A = np.array([
         [1, 1, 1, 1, 1],    # Total meals = 500
         [0, 1, 1, 0, 0],    # Vegetarian + Vegan = 200
-        [0, 0, 0, -2, 1],   # Kids = 0.5 * Gluten-Free (=> 2k = gf)
+        [0, 0, 0, 1, -2],   # Kids = 0.5 * Gluten-Free (=> 2k = gf)
         [1, -1, 0, 0, 0],   # Regular = Vegetarian
         [0, 0, 1, -1, 0]    # Vegan = Gluten-Free + 25
     ])

@@ -9,7 +9,7 @@ def solve_startup_equity():
         [1, 1, 1, 1],  # total equity is 100%
         [1, -1, 0, 0],  # a = b + 5
         [0, -2, 1, 0],  # c = 2b
-        [1, 1, 0, -1]   # d = (a + b) - 10
+        [-1, -1, 0, 1]   # d = (a + b) - 10
     ])
 
     # Right-hand side vector
